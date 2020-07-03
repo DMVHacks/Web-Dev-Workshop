@@ -1,0 +1,7 @@
+django
+gunicorn
+django-heroku
+Pillow
+python-dotenv
+dj-database-url
+whitenoise
