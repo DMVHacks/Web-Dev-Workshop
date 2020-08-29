@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'personalsite.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'personal_site.settings.__init__')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

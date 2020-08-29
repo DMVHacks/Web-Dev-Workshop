@@ -1,7 +1,7 @@
 django
-gunicorn
 django-heroku
+dj-database-url
+gunicorn
 Pillow
 python-dotenv
-dj-database-url
 whitenoise

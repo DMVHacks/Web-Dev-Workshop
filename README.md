@@ -1,2 +1,1 @@
-# Web-Dev-Workshop
-Shell code for web development workshop
+# Personal site made at the Codefy Web Development workshop

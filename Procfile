@@ -1,1 +1,1 @@
-web: gunicorn women_in_physics.wsgi --log-file -
+web: gunicorn personal_site.wsgi --log-file -

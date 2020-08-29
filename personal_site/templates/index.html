@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block head %}
+    <!-- You can add CSS & Javascript here like you would in <head></head> tags. -->
+{% endblock %}
+
+{% block main %}
+    <!-- This is like the <body></body> or <main></main> section. -->
+    <p>Hello World!</p>
+    <p>I can add images from my static/img folder like this:</p>
+    <img style="width:60%;" src="{% static 'img/sample.jpeg' %}" />
+    <br>
+    <p>I can link to other pages within my site like this:</p>
+    <a href="{% url 'main:about' %}">Click me!</a>
+{% endblock %}
